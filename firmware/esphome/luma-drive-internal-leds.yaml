@@ -1,0 +1,110 @@
+substitutions:
+  name: esphome-web-4471d0
+  friendly_name: esp-luma-drive-01
+
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+  min_version: 2024.6.0
+  name_add_mac_suffix: false
+  project:
+    name: esphome.web
+    version: dev
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+  level: DEBUG
+
+# Enable Home Assistant API
+api:
+
+# Allow Over-The-Air updates
+ota:
+- platform: esphome
+  password: !secret esphome_ota_password
+
+wifi:
+  ssid: !secret esphome_wifi_ssid
+  password: !secret esphome_wifi_password
+  ap:
+    ssid: "$name Hotspot"
+    password: !secret esphome_ap_password
+
+captive_portal:
+
+output:
+# Setup the pins that control the RGB LED
+# internal LEDS
+  - platform: ledc
+    pin: GPIO0
+    id: led_red
+  - platform: ledc
+    pin: GPIO20
+    id: led_green
+  - platform: ledc
+    pin: GPIO10
+    id: led_blue
+  - platform: ledc
+    pin: GPIO21
+    id: led_white
+  - platform: ledc
+    pin: GPIO1
+    id: led_yellow
+    
+light:
+  - platform: monochromatic
+    output: led_yellow
+    name: Yellow Backlight
+    id: onboard_backlight
+    restore_mode: RESTORE_DEFAULT_OFF
+  - platform: rgbw
+    name: RGB
+    id: onboard_rgbw_light
+    red: led_red
+    green: led_green
+    blue: led_blue
+    white: led_white
+    restore_mode: RESTORE_DEFAULT_OFF
+    effects:
+      - pulse:
+          name: "Slow Pulse"
+          transition_length: 1000ms
+          update_interval: 1000ms
+          min_brightness: 50%
+          max_brightness: 100% 
+      - pulse:
+          name: "Fast Pulse"
+          transition_length: 100ms
+          update_interval: 100ms
+          min_brightness: 50%
+          max_brightness: 100%
+      - random:
+          name: "Random Color"
+          transition_length: 5s
+          update_interval: 7s
+      - flicker:
+          name: "Flicker Effect"
+          alpha: 95%
+          intensity: 1.5%
+      - strobe:
+          name: "Strobe Effect"
+          colors:
+            - state: true
+              brightness: 100%
+              red: 100%
+              green: 0%
+              blue: 0%
+              white: 0%
+              duration: 250ms
+            - state: true
+              brightness: 100%
+              red: 0%
+              green: 0%
+              blue: 100%
+              white: 0%
+              duration: 250ms
