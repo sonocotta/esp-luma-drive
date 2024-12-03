@@ -111,7 +111,7 @@ One simple way that Esparagus Echo can be used in the Home Assistant is by using
 | **Onboard ESP Luma Drive device into HA** <br/> <br/> Go to the HA ESPHome page and you should be able to find a new device. You need to onboard it with the below config (feel free to change names) <br/> This will take a moment or two | ![image](https://github.com/sonocotta/esparagus-media-center/assets/5459747/32b0c26a-3be1-4e15-b749-1176d46ff011)
 | **Validate device in the ESPHome** | ![image](https://github.com/sonocotta/esparagus-media-center/assets/5459747/92df6029-c777-47ce-8ff9-debec70f7e05)
 | **Add ESPHome Integration** <br /> <br/> Navigate to HA Settings > Devices & services > Integrations. Click the big + ADD INTEGRATION button, look for ESPHome, and click to add it. <br/> It should discover and add ESPHome media devices based on the previous step | ![image](https://github.com/sonocotta/esparagus-media-center/assets/5459747/c5d3bb12-8b07-4c49-a9e9-cdf2e6cad8ba)
-| **Use your media device in the HA to control lights** | ![image](https://github.com/user-attachments/assets/d4309807-f380-40eb-bdaa-4ce0c85cff3e) ![image](https://github.com/user-attachments/assets/9a3bf685-5a68-4c1f-a2f5-d7a08760cbbe)
+| **Use your new device in the HA to control lights** | ![image](https://github.com/user-attachments/assets/d4309807-f380-40eb-bdaa-4ce0c85cff3e) ![image](https://github.com/user-attachments/assets/9a3bf685-5a68-4c1f-a2f5-d7a08760cbbe)
 
 ## Hardware
 
