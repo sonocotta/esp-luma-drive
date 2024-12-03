@@ -21,10 +21,13 @@ ESP32-Luma-Drive is a simple device that is designed to be used as an ESPHome-co
   - [Boards Pinout](#boards-pinout)
     - [Built-in LEDs](#built-in-leds)
     - [External LED drivers](#external-led-drivers)
+    - [Using higher voltage](#using-higher-voltage)
   - [Software](#software)
     - [Home Assistant - media player](#home-assistant---media-player)
   - [Hardware](#hardware)
+    - [Word about the efficiency](#word-about-the-efficiency)
   - [Where to buy](#where-to-buy)
+- [The look](#the-look)
 
 ## Motivation
 
