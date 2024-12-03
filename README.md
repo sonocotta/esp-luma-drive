@@ -138,3 +138,13 @@ Not ideal, but much better still
 ## Where to buy
 
 You may support our work by ordering this product at Tindie (coming soon)
+
+# The look
+
+![DSC_0039](https://github.com/user-attachments/assets/1298af22-e743-4c26-9cc9-afb731021e05)
+![DSC_0041](https://github.com/user-attachments/assets/4023b458-8407-4d29-a4d0-87e734bd9a55)
+![DSC_0043](https://github.com/user-attachments/assets/7a974d4b-5353-4e2a-8e8d-4eb473814b57)
+![DSC_0047](https://github.com/user-attachments/assets/b6bd748d-d3e8-41ab-94be-675992ea8687)
+![DSC_0051](https://github.com/user-attachments/assets/0a49ff6c-ffac-4915-8695-c2cd6adbe70a)
+
+
