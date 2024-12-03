@@ -45,7 +45,8 @@ When I did the external LED controller, I thought that the LED strip was a great
 | # | ESP Luma Drive |
 |---|---|
 | Image | image |
-| MCU | ESP32-C3 module |
+| Power house | Ai-Thinker ESP-C3-12F
+| MCU | ESP32-C3, 160MHz, 4MB of flash, 400 KB SRAM |
 | Power | 5V from USB-C for flashing purposes only <br> 12V DC for driving LEDs and the MCU |
 | Internal LEDs | 5 channels, 12 LEDs each: RGBW + Yellow
 | External LED drivers | 5 channels, 4A each: RGBWW (suggested) |
