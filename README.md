@@ -23,7 +23,7 @@
     - [External LED drivers](#external-led-drivers)
     - [Using higher voltage](#using-higher-voltage)
   - [Software](#software)
-    - [Home Assistant - media player](#home-assistant---media-player)
+    - [Home Assistant - light device](#home-assistant---light-device)
   - [Hardware](#hardware)
     - [Word about the efficiency](#word-about-the-efficiency)
   - [Where to buy](#where-to-buy)
@@ -100,9 +100,9 @@ Since both devices are designed to be primarily used within the Home Assistant s
 
 Due to the limit in PWM channels on the ESP32-C3, you can't use all 10 drivers at the same time, you can still use a secondary set in binary mode though
 
-### Home Assistant - media player
+### Home Assistant - light device
 
-One simple way that ESP Luma Drive can be used in the Home Assistant is by using a media player device. [Yaml config](/firmware/esphome) will get you started. Below are the configuration steps that you need to do in the HA itself.
+One simple way that ESP Luma Drive can be used in the Home Assistant is by using a light device. [Yaml config](/firmware/esphome) will get you started. Below are the configuration steps that you need to do in the HA itself.
 
 | Step | Screenshot |
 |------|------------|
