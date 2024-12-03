@@ -1,4 +1,4 @@
-# Esparagus Echo
+# ESP Luma Drive
 
 ![Open Source Hardware](/images/open-source-hardware-logo.png)
 ![Open Source Software](/images/open-source-software-logo.png)
@@ -10,11 +10,11 @@
 
 ![DSC_0032](https://github.com/user-attachments/assets/507d3c19-1dce-41ba-9a02-63a8561f2bc2)
 
-ESP32-Luma-Drive is a simple device that is designed to be used as an ESPHome-controlled Home Assistant integrated smart lights controller. It has an onboard LED matrix consisting of 5 colors (RGBW + night yellow) and a set of MOSFET drivers to individually control 5 lines of external LED strips (RGBWW), so it can be used with either.
+**ESP Luma Drive** is a simple device that is designed to be used as an ESPHome-controlled Home Assistant integrated smart lights controller. It has an onboard LED matrix consisting of 5 colors (RGBW + night yellow) and a set of MOSFET drivers to individually control 5 lines of external LED strips (RGBWW), so it can be used with either.
 
 ## Table of Contents
 
-- [Esparagus Echo](#esparagus-echo)
+- [ESP Luma Drive](#esp-luma-drive)
   - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Features](#features)
@@ -102,7 +102,7 @@ Due to the limit in PWM channels on the ESP32-C3, you can't use all 10 drivers a
 
 ### Home Assistant - media player
 
-One simple way that Esparagus Echo can be used in the Home Assistant is by using a media player device. [Yaml config](/firmware/esphome) will get you started. Below are the configuration steps that you need to do in the HA itself.
+One simple way that ESP Luma Drive can be used in the Home Assistant is by using a media player device. [Yaml config](/firmware/esphome) will get you started. Below are the configuration steps that you need to do in the HA itself.
 
 | Step | Screenshot |
 |------|------------|
