@@ -88,8 +88,8 @@ Based on the above table, 12V is the maximum voltage that can guarantee a contin
 - XL1509 - 40V Max input voltage
 - AO3400 MOSFET - 40V Max source-drain voltage
 - Capacitor voltage rating - 25V
-- Resistor power rating - 250mW - 50mA continuous
-- LED current - make your own calculator 
+- Resistor power rating - 250mW - 50mA continuous current.
+- LED current - make your own calculation
 
 ## Software
 
@@ -98,7 +98,7 @@ Since both devices are designed to be primarily used within the Home Assistant s
 - `luma-drive-external-leds` is a simple external LEDs driver with PWM on every channel and a few sample effects
 - `luma-drive-internal-leds` is a simple internal LEDs driver with PWM on every channel and the same sample effects
 
-Due to the limit in PWM channels on the ESP32-C3, you can't use all 10 drivers at the same time, you can still use secondary set in binary mode though
+Due to the limit in PWM channels on the ESP32-C3, you can't use all 10 drivers at the same time, you can still use a secondary set in binary mode though
 
 ### Home Assistant - media player
 
