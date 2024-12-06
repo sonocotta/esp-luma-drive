@@ -93,7 +93,7 @@ Based on the above table, 12V is the maximum voltage that can guarantee a contin
 
 ## Software
 
-Since both devices are designed to be primarily used within the Home Assistant setup, the [software](/firmware) folder contains ESPHome configurations for both devices.
+Since device is designed to be primarily used within the Home Assistant setup, the [software](/firmware) folder contains ESPHome configurations for both modes of operation.
 
 - `luma-drive-external-leds` is a simple external LEDs driver with PWM on every channel and a few sample effects
 - `luma-drive-internal-leds` is a simple internal LEDs driver with PWM on every channel and the same sample effects
@@ -141,7 +141,7 @@ Not ideal, but much better still
 
 ## Where to buy
 
-You may support our work by ordering this product at Tindie (coming soon)
+You may support our work by ordering this product at [Tindie](https://www.tindie.com/products/sonocotta/esp-luma-drive/)
 
 # The look
 
